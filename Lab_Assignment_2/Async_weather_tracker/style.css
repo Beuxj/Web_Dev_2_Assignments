@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #0b0b0b;
+    color: #ffffff;
+    padding: 40px;
+}
+
+.app {
+    max-width: 900px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ff2b2b;
+}
+
+.top {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background: #151515;
+    border: 1px solid #2b2b2b;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.card.full {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    color: #ff5c5c;
+}
+
+input {
+    width: 100%;
+    padding: 9px;
+    margin-bottom: 12px;
+    background: #0f0f0f;
+    border: 1px solid #ff2b2b;
+    color: white;
+    border-radius: 4px;
+}
+
+input::placeholder {
+    color: #888;
+}
+
+button {
+    background: linear-gradient(135deg, #ff2b2b, #b30000);
+    border: none;
+    padding: 8px 18px;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #ff4444, #ff0000);
+}
+
+h3 {
+    margin: 10px 0;
+    color: #ff3b3b;
+}
+
+.weather-box p {
+    margin: 6px 0;
+}
+
+#history button {
+    font-size: 12px;
+    margin: 4px 4px 0 0;
+    padding: 6px 10px;
+    background: #1f1f1f;
+    border: 1px solid #ff2b2b;
+}
+
+#history button:hover {
+    background: #ff2b2b;
+}
+
+pre {
+    background: #0d0d0d;
+    padding: 15px;
+    height: 140px;
+    overflow-y: auto;
+    border-radius: 6px;
+    color: #ff6b6b;
+    font-size: 13px;
+}
